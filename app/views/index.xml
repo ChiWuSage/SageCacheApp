@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container">
+		<!-- <Label id="label" onClick="doClick">Hello, World</Label> 
+		<Button id="writeData" onClick="writeData" title="Write Data" top="10" width="100" height="50" />	
+		<Button id="getData" onClick="getData" title="Get Data" top="10" width="100" height="50" />
+		<Button id="resetData" onClick="reset" title="Reset Data" top="10" width="100" height="50" />
+		-->
+	
+		<TableView id="tableView">
+			<TableViewSection id="firstSection">
+				<TableViewRow title="Write Data" onClick="writeData" backgroundColor="black" height="100"/>
+			</TableViewSection>
+			<TableViewSection id="secondSection">
+				<TableViewRow title="Get Data" onClick="getData" backgroundColor="black" height="100"/>
+			</TableViewSection>
+			<TableViewSection id="thirdSection">
+				<TableViewRow title="Reset" onClick="reset" backgroundColor="black"height="100"/>
+			</TableViewSection>
+		</TableView>
+
+	</Window>
+</Alloy>
